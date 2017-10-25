@@ -8,4 +8,4 @@ Homestead.json
 Homestead.yaml
 .env
 /moje_git_ignore
-.gitignore
+/nbproject
