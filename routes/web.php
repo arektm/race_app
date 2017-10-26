@@ -12,9 +12,11 @@
 */
 
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});    default route
+*/
+Route::get('/', 'EventsController@index');
 // Routes for EVENTS
 Route::get('/events', 'EventsController@index');
 
